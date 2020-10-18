@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(45deg, rgba(130, 126, 207, 1) 0%, rgba(135, 215, 129, 1) 35%, rgba(239, 255, 40, 1) 100%);
+}
+
+div {
+    position: fixed;
+    top: 200px;
+    left: 200px;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(59, 67, 179);
+    cursor: pointer;
+}
+
+.raised {
+    transform: translate(-4px, -4px);
+    background-color: rgb(88, 95, 184);
+    ;
+}
