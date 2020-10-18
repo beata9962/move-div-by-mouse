@@ -10,17 +10,19 @@ body {
 }
 
 div {
+    background-image: url("cat.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
     position: fixed;
     top: 200px;
     left: 200px;
     width: 150px;
     height: 150px;
-    background-color: rgb(59, 67, 179);
+    /* background-color: rgb(59, 67, 179); */
     cursor: pointer;
 }
 
-.raised {
+.picked-up {
     transform: translate(-4px, -4px);
-    background-color: rgb(88, 95, 184);
     ;
 }

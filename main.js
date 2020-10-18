@@ -8,7 +8,7 @@ let divParLeft;
 let flag = false;
 
 div.addEventListener("mousedown", (event) => {
-    div.classList.add("raised");
+    div.classList.add("picked-up");
     flag = true;
 divParTop = event.offsetY;
 divParLeft = event.offsetX;
@@ -23,6 +23,6 @@ div.addEventListener("mousemove", (e) => {
     })
 
 div.addEventListener("mouseup", () => {
-    div.classList.remove("raised");
+    div.classList.remove("picked-up");
     flag = false;
 })
